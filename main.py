@@ -53,7 +53,7 @@ class App(ctk.CTk):
         self.resizable(False, False)
 
         # Label + Entry pour le nouveau texte
-        ctk.CTkLabel(self, text="Nouveau texte à insérer :").grid(row=0, column=0, padx=10, pady=(15, 5), sticky="w")
+        ctk.CTkLabel(self, text="Titre du poste :").grid(row=0, column=0, padx=10, pady=(15, 5), sticky="w")
         self.new_text_entry = ctk.CTkEntry(self, width=380)
         # vide par défaut
         self.new_text_entry.insert(0, "")  
